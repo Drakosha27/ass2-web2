@@ -35,17 +35,6 @@ All external API requests are handled on the backend.
 └── package-lock.json
 
 
-## API Endpoints
-
-### Weather
-GET /api/weather?city=London
-
-### News
-GET /api/news?country=London
-
-### Currency
-GET /api/currency?currency=GBP
-
 ## How to Run
 
 1. Install dependencies:
@@ -65,4 +54,5 @@ npx nodemon server.js
 
 ```
 http://localhost:3001
+
 ```
